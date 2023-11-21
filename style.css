@@ -103,6 +103,7 @@ p {
 
 .head1 {
     padding: 0px 80px;
+    z-index: 999999;
 }
 
 .head2 {
@@ -369,7 +370,7 @@ table {
     width: 489px;
     height: 581px;
     border: 1px solid var(--background-color);
-    border-radius: 1.6rem;
+    /* border-radius: 1.6rem; */
     padding: 2.5rem;
     display: flex;
     align-items: flex-end;
@@ -510,6 +511,135 @@ table {
     padding: 0 10px;
     background-color: white;
 }
+
+
+.upsec {
+    background-image: url('media/Rectangle 46.png');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.dropdown-toggle::after {
+    background-image: url(media/gbp.svg);
+    width: 15px;
+    margin-left: 5px;
+    height: 15px;
+    font-size: 0px;
+    background-size: cover;
+    background-position: center 32px;
+}
+
+.dropdown-toggle.show::after {
+    background-image: url(media/gbp1.svg);
+}
+
+
+/* .gb .dropdown */
+
+
+/* end desgin */
+
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+    .w40 {
+        width: 40%;
+    }
+    .w60 {
+        width: 60%;
+    }
+    .pcontainer {
+        width: 385px;
+        height: 525px;
+    }
+    .pad0 {
+        padding: 0px !important;
+    }
+    .padb0 {
+        padding-bottom: 0px !important;
+    }
+    .mart0 {
+        margin-top: 0px !important;
+    }
+    .pady2 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .padx2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mar0 {
+        margin: 10px auto!important;
+    }
+    .head1 {
+        padding: 0px 20px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1100px) {
+    /* .w40 {
+        width: 40%;
+    }
+    .w60 {
+        width: 60%;
+    }
+    */
+    /* .pad0 {
+        padding: 0px !important;
+    }
+    .padb0 {
+        padding-bottom: 0px !important;
+    }
+    .mart0 {
+        margin-top: 0px !important;
+    }
+    .pady2 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .padx2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mar0 {
+        margin: 10px auto!important;
+    } */
+    .hpx {
+        height: 667px !important;
+    }
+    .hpx1 {
+        height: 654px !important;
+    }
+    .w900 {
+        max-width: 98% !important;
+    }
+    .fs4812 {
+        font-size: 43px;
+    }
+    .wh1000 {
+        width: 100%;
+        height: 100%;
+    }
+    img {
+        object-fit: cover;
+    }
+    .pcontainer {
+        width: 337px;
+        height: 480px;
+    }
+    .head1 {
+        padding: 0px 0px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding: 0px !important;
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
+}
+
+
 .table {
         width: 770px;margin: auto;
     }
@@ -521,6 +651,7 @@ table {
         width: 90%;
     }
 }
+
 @media screen and (max-width: 576px) {
     .nav-item {
         padding: 16px;
@@ -628,4 +759,24 @@ table {
         box-shadow: none;
         margin-bottom: 20px;
     }
+    .pcontainer {
+        width: 100%;
+        height: 377px;
+        background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(media/home1.1m.png);
+        background-size: cover;
+        background-position-x: center;
+    }
+    .pcontainer--2 {
+        background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url(media/home1.2m.png);
+        background-size: cover;
+        background-position-x: center;
+    }
+    .upsec {
+        background-image: url('media/Rectangle 46m.png');
+        background-size: cover;
+        background-position-x: center;
+    }
+    /* .navbar {
+        background-color: white !important;
+    } */
 }

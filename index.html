@@ -57,10 +57,16 @@
                             <a class="nav-link dropdown-toggle fsN14 green_clr mobile" href="#"
                                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">GBP £</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item blue_clr fss20" href="#">EB</a>
-                                <a class="dropdown-item blue_clr fss20" href="#">GBR</a>
-                                <a class="dropdown-item blue_clr fss20" href="#">USD</a>
+                            <ul class="dropdown-menu gb" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex">
+                                    <a class="dropdown-item blue_clr fss20" href="#">EB</a>
+                                    <div> <img src="media/greendot.png" class=""></div>
+
+                                    <a class="dropdown-item blue_clr fss20" href="#">GBR</a>
+
+                                    <div><img src="media/greendot.png" class=""></div>
+                                    <a class="dropdown-item blue_clr fss20" href="#">USD</a>
+                                </div>
                             </ul>
                         </li>
                     </ul>
@@ -78,11 +84,22 @@
         </nav>
     </div>
 
-    <div class="container-fluid home1 py-5"
+    <div class="container-fluid home1 py-5 padb0"
         style="background-image: url('media/Hero1.png'); background-position-x: center; background-repeat: no-repeat; background-size: cover;">
 
-        <div class="row py-5 justify-content-end align-items-center">
-            <div class="col-xxl-4 ps-xl-5">
+        <div class="row py-5 justify-content-end align-items-center px-3 px-xl-0">
+            <div class="mobile">
+
+                <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                    <div class="wrap wrap--1">
+                        <div class="pcontainer pcontainer--1">
+                            <p>Offering Expert Design Resources</p>
+                        </div>
+                    </div>
+                    <a href=""><button class="btn_green text-white"> View our resources</button></a>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-5 ps-xxl-5 px-xl-0 ps-xl-3 w40 py-5 text-center text-xl-start">
                 <h1 class="green_clr fs72">
                     Experience next level web design
                 </h1>
@@ -92,15 +109,17 @@
                 </p>
                 <button class="btn_green text-white">Upgrade your skills today!</button>
             </div>
-            <div class="col-xxl-7 d-flex justify-content-end px-5 flex-wrap align-items-center gap-4">
+            <div class="col-xxl-7 col-xl-7 d-flex justify-content-end px-xxl-5 pad0 flex-wrap align-items-center gap-4">
 
-                <div class="d-flex flex-column justify-content-center align-items-center gap-4">
-                    <div class="wrap wrap--1">
-                        <div class="pcontainer pcontainer--1">
-                            <p>Offering Expert Design Resources</p>
+                <div class="desktop">
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+                        <div class="wrap wrap--1">
+                            <div class="pcontainer pcontainer--1">
+                                <p>Offering Expert Design Resources</p>
+                            </div>
                         </div>
+                        <a href=""><button class="btn_green text-white"> View our resources</button></a>
                     </div>
-                    <a href=""><button class="btn_green text-white"> View our resources</button></a>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-center gap-4">
                     <div class="wrap wrap--2">
@@ -117,24 +136,24 @@
         </div>
     </div>
 
-    <div class="container-fluid px-0 overflow-hidden">
+    <div class="container-fluid px-0 overflow-hidden desktop">
         <div class="row justify-content-center">
-            <div class="col-xxl-6 px-0 h-100">
+            <div class="col-xl-6 col-xl-6 px-0 h-100">
                 <div>
-                    <img src="/media/Mask.png" class="w-100 h-100" alt="">
+                    <img src="media/Mask.png" class="w-100 h-100" alt="">
                 </div>
                 <div class="row">
-                    <div class="col-xxl-6">
-                        <div>
+                    <div class="col-xl-6">
+                        <div class="wh1000">
                             <img src="media/hero2.2.png" class="w-100 h-100" alt="">
                         </div>
                     </div>
-                    <div class="col-xxl-6 d-flex align-items-center text-center px-xxl-5">
+                    <div class="col-xl-6 pad0 d-flex align-items-center text-center px-xxl-5 px-xl-0">
                         <div>
-                            <h3 class="fs48 green_clr">
+                            <h3 class="fs48 green_clr fs4812">
                                 Insightful Design Resources
                             </h3>
-                            <p class="fs15">
+                            <p class="fs15 padx2 pe-xl-3 pe-xxl-0">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis semper quis nunc amet
                                 aliquam lacus.
                             </p>
@@ -144,8 +163,8 @@
                 </div>
             </div>
 
-            <div class="col-xxl-6 px-0 h-100">
-                <div class="py-xxl-5 col-xxl-8 my-xxl-5 text-center mx-auto">
+            <div class="col-xl-6 px-0 h-100">
+                <div class="py-xl-5 col-xxl-8 col-xl-10 my-xxl-5 text-center mx-auto pad0 mar0">
                     <h3 class="fs48 green_clr">
                         We have the Upper Hand
                     </h3>
@@ -159,7 +178,7 @@
 
                 <div class="position-relative pt-xxl-4 ">
                     <img src="media/hero2.3.png" class="mt-xxl-1 w-100 h-100" alt="">
-                    <div class="position-absolute bottom-0 bg-white col-xxl-6 py-xxl-5 text-center px-xxl-4"
+                    <div class="position-absolute bottom-0 bg-white col-xxl-6 col-xl-7  w60 py-xxl-5 text-center px-xxl-4"
                         style="right: 0;">
                         <h3 class="fs48 green_clr">
                             Bespoke design packages
@@ -176,19 +195,79 @@
         </div>
     </div>
 
-    <div class="container-fluid my-5">
+    <div class="container-fluid px-0 overflow-hidden mobile">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-xl-6 px-0 h-100">
+                <div>
+                    <img src="media/Maskm.png" class="w-100 h-100" alt="">
+                </div>
+
+                <div class="py-xl-5 py-5 px-4 col-xxl-8 col-xl-10 my-xxl-5 text-center mx-auto pad0 mar0">
+                    <h3 class="fs48 green_clr">
+                        We have <br> the Upper Hand
+                    </h3>
+                    <p class="fs15 px-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis semper quis nunc amet aliquam
+                        lacus, risus, tempor amet. Gravida tristique fames bibendum pellentesque. Dolor sem ultricies
+                        consectetur viverra ultricies.
+                    </p>
+                    <button class="btn_green text-white">Learn More</button>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="wh1000">
+                            <img src="media/hero2.2m.png" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 pad0 py-5 d-flex align-items-center text-center px-xxl-5 px-xl-0">
+                        <div>
+                            <h3 class="fs48 green_clr fs4812">
+                                Insightful Design Resources
+                            </h3>
+                            <p class="fs15 padx2 pe-xl-3 pe-xxl-0 px-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis semper quis nunc amet
+                                aliquam lacus.
+                            </p>
+                            <button class="btn_green text-white">Explore Resources</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="media/hero2.3m.png" class="w-100 h-100" alt="">
+                </div>
+
+                <div class="py-xl-5 py-5 px-4 col-xxl-8 col-xl-10 my-xxl-5 text-center mx-auto pad0 mar0">
+
+                    <h3 class="fs48 green_clr">
+                        Bespoke design packages
+                    </h3>
+                    <p class="fs15">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis semper quis nunc amet aliquam
+                        lacus.
+                    </p>
+                    <button class="btn_green text-white">Enquire Today</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid my-xl-5 mt-0">
         <div class="row">
             <div class="col-xxl-11 mx-auto">
                 <div>
                     <img src="media/hero3.png" class="w-100" alt="">
                 </div>
 
-                <div class="bg-green py-5">
-                    <div class="col-xxl-5 text-center mx-auto py-5">
+                <div class="bg-green py-xxl-5 py-0 pad0">
+                    <div class="col-xxl-5 col-xl-6 w60 text-center mx-auto py-5">
                         <h3 class="text-capitalize fs48 text-white">
                             get ahead of the competition with impressive Masterpieces
                         </h3>
-                        <p class="fs15 textF4F4F4 py-3 px-xxl-5">
+                        <p class="fs15 textF4F4F4 py-3 px-xxl-5 px-xl-0 px-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nullam purus nunc
                             metus. Posuere vitae egestas bibendum nunc dictum aliquam.
                         </p>
@@ -202,12 +281,95 @@
         </div>
     </div>
 
-    <div class="container-fluid px-0 overflow-hidden">
+
+    <div class="container-fluid px-0 overflow-hidden mobile">
         <div class="row justify-content-center">
-            <div class="col-xxl-6 px-0 h-100">
-                <div class="position-relative">
+            <div class="col-xl-6 col-xl-6 px-0 h-100">
+                <div>
+                    <img src="media/mask2m.png" class="w-100 h-100" alt="">
+                </div>
+
+                <div class="py-xl-5 py-5 px-4 col-xxl-8 col-xl-10 my-xxl-5 text-center mx-auto pad0 mar0">
+                    <div class="position-relative bottom-0 bg-white col-xxl-6 col-xl-7 w60 py-xxl-5 text-center px-xxl-4 "
+                        style="right: 0;">
+                        <span class="rounded-pill text-center "
+                            style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
+
+                            Trending Software
+
+                        </span>
+                        <h3 class="fs48 green_clr mt-4">
+                            Blogging <br> Traffic System
+                        </h3>
+                        <p class="fs15">
+                            Lorem ipsum dolor sit amet consectetur. Amet mauris a id non. In eget consectetur.
+                        </p>
+                        <a href="" class="fs15">Read More</a>
+                        <div class="d-flex gap-5 mt-4 justify-content-center align-items-center">
+                            <div class="fs30">
+                                £150.00
+                            </div>
+
+                            <button class="btn_green text-white">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="wh1000">
+                            <img src="media/hero3.2m.png" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row justify-content-center py-4">
+                    <div class="col-xl-4 col-10 mx-auto d-flex align-items-center justify-content-center">
+                        <div class="w-100">
+                            <img src="media/aB6VKAfmeNSTou8emI0wHIy96IXeeki59U5eglJl 1.png" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="col-xxl-6 py-4 col-xl-7 flex-column d-flex align-items-center justify-content-center px-xxl-4 py-xxl-5 py-xl-5 pady2">
+
+                        <span class="rounded-pill text-center"
+                            style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
+
+                            Trending Video
+
+                        </span>
+                        <h3 class="fs48 fs4812 green_clr mt-4 mart0 text-center">
+                            Your First <br> Website Course
+                        </h3>
+                        <p class="fs15 text-center px-4">
+                            Lorem ipsum dolor sit amet consectetur. Id mauris purus vel eget consequat eu mi ac vel
+                            rhoncus pulvinar duis volutpat.
+                        </p>
+
+                        <div class="d-flex gap-5 align-items-center">
+                            <div class="fs30">
+                                £150.00
+                            </div>
+
+                            <button class="btn_green text-white">Add To Cart</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0 overflow-hidden desktop">
+        <div class="row justify-content-center">
+            <div class="col-xxl-6 col-xl-6 px-0 h-100">
+                <div class="position-relative hpx1">
                     <img src="media/hero4.1.png" class=" w-100 h-100" alt="">
-                    <div class="position-absolute bottom-0 bg-white col-xxl-6 py-xxl-5 text-center px-xxl-4"
+                    <div class="position-absolute bottom-0 bg-white col-xxl-6 col-xl-7 w60 py-xxl-5 text-center px-xxl-4 "
                         style="right: 0;">
                         <span class="rounded-pill text-center "
                             style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
@@ -233,10 +395,10 @@
                 </div>
 
             </div>
-            <div class="col-xxl-6 px-0 h-100">
+            <div class="col-xl-6 px-0 h-100 hpx1">
                 <div class="row justify-content-around">
 
-                    <div class="col-xxl-6 d-flex align-items-center px-xxl-4 py-5">
+                    <div class="col-xxl-6 col-xl-7 d-flex align-items-center px-xxl-4 py-xxl-5 py-xl-5 pady2">
                         <div>
                             <span class="rounded-pill text-center"
                                 style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
@@ -244,7 +406,7 @@
                                 Trending Video
 
                             </span>
-                            <h3 class="fs48 green_clr mt-4">
+                            <h3 class="fs48 fs4812 green_clr mt-xl-4 mart0 ">
                                 Your First <br class="desktop"> Website Course
                             </h3>
                             <p class="fs15">
@@ -261,14 +423,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 d-flex align-items-center justify-content-center">
+                    <div class="col-xl-4 d-flex align-items-center justify-content-center">
                         <div>
                             <img src="media/aB6VKAfmeNSTou8emI0wHIy96IXeeki59U5eglJl 1.png" class="w-100 h-100" alt="">
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="/media/hero4.2.png" class="w-100 h-100" alt="">
+                <div class="">
+                    <img src="media/hero4.2.png" class="w-100 h-100" alt="">
                 </div>
 
             </div>
@@ -277,18 +439,20 @@
         </div>
     </div>
 
-    <div class="py-5"
-        style="background-image: url('media/Rectangle 46.png'); background-size: cover; background-position-x: center;">
-        <div class="py-5 my-xxl-5 d-flex justify-content-center text-center align-items-center">
+    <div class="py-5 upsec">
+        <div class="py-5 my-xxl-5 d-flex justify-content-center text-center align-items-center my-5">
 
-            <h3 class="fs48 text-white">Upgrade your design skills today</h3>
+            <h3 class="fs48 text-white px-5 py-xl-0 py-4">Upgrade your design skills today</h3>
         </div>
 
 
     </div>
 
-    <div class="container my-5">
-        <div class="d-flex justify-content-center gap-4">
+    <div class="container my-5 mx-xxl-auto w900">
+        <h3 class="fs48 green_clr text-center pb-xl-5">
+            Additional Trending Resources
+        </h3>
+        <div class="d-flex justify-content-center gap-4 flex-xl-nowrap flex-wrap">
             <div class="box1 px-2 py-4 text-center d-flex justify-content-center" style="box-shadow: 0px 1.35625px 2.775px 0px rgba(0, 0, 0, 0.02), 0px 6.2px 7.8px 0px rgba(0, 0, 0, 0.04), 0px 15.69375px 20.925px 0px rgba(0, 0, 0, 0.05), 0px 31px 48px 0px rgba(0, 0, 0, 0.07);
 
             ">
@@ -310,7 +474,7 @@
                         id felis cursus cras dignissim. Ante.
                     </p>
                     <a href="" class="fs15">Read More</a>
-                    <div class="d-flex gap-4 mt-4 justify-content-center align-items-center">
+                    <div class="d-flex gap-xxl-4 gap-2 mt-4 justify-content-center align-items-center">
                         <div class="fs30">
                             £25.00
                         </div>
@@ -341,7 +505,7 @@
                         id felis cursus cras dignissim. Ante.
                     </p>
                     <a href="" class="fs15">Read More</a>
-                    <div class="d-flex gap-4 mt-4 justify-content-center align-items-center">
+                    <div class="d-flex gap-xxl-4 gap-2 mt-4 justify-content-center align-items-center">
                         <div class="fs30">
                             £25.00
                         </div>
@@ -372,7 +536,7 @@
                         id felis cursus cras dignissim. Ante.
                     </p>
                     <a href="" class="fs15">Read More</a>
-                    <div class="d-flex gap-4 mt-4 justify-content-center align-items-center">
+                    <div class="d-flex gap-xxl-4 gap-2 mt-4 justify-content-center align-items-center">
                         <div class="fs30">
                             £25.00
                         </div>
@@ -403,7 +567,7 @@
                         id felis cursus cras dignissim. Ante.
                     </p>
                     <a href="" class="fs15">Read More</a>
-                    <div class="d-flex gap-4 mt-4 justify-content-center align-items-center">
+                    <div class="d-flex gap-xxl-4 gap-2 mt-4 justify-content-center align-items-center">
                         <div class="fs30">
                             £25.00
                         </div>
@@ -416,14 +580,96 @@
 
     </div>
 
+    <div class="container-fluid px-0 overflow-hidden mobile">
+        <div class="row justify-content-center">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="wh1000">
+                        <img src="media/hero4.2m.png" class="w-100 h-100" alt="">
+                    </div>
+                </div>
+            </div>
 
-    <div class="container-fluid px-0 overflow-hidden">
+
+
+            <div class="row justify-content-center py-4">
+                <div class="col-xl-4 col-10 mx-auto d-flex align-items-center justify-content-center">
+                    <div class="w-100">
+                        <img src="media/aB6VKAfmeNSTou8emI0wHIy96IXeeki59U5eglJl 1.png" class="w-100 h-100" alt="">
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-6 py-4 col-xl-7 flex-column d-flex align-items-center justify-content-center px-xxl-4 py-xxl-5 py-xl-5 pady2">
+
+                    <span class="rounded-pill text-center"
+                        style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
+
+                        Trending Video
+
+                    </span>
+                    <h3 class="fs48 fs4812 green_clr mt-4 mart0 text-center">
+                        Your First <br> Website Course
+                    </h3>
+                    <p class="fs15 text-center px-4">
+                        Lorem ipsum dolor sit amet consectetur. Id mauris purus vel eget consequat eu mi ac vel rhoncus
+                        pulvinar duis volutpat.
+                    </p>
+
+                    <div class="d-flex gap-5 align-items-center">
+                        <div class="fs30">
+                            £150.00
+                        </div>
+
+                        <button class="btn_green text-white">Add To Cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-xl-6 col-xl-6 px-0 h-100">
+                <div>
+                    <img src="media/mask3m.png" class="w-100 h-100" alt="">
+                </div>
+
+                <div class="py-xl-5 py-5 px-4 col-xxl-8 col-xl-10 my-xxl-5 text-center mx-auto pad0 mar0">
+                    <div class="position-relative bottom-0 bg-white col-xxl-6 col-xl-7 w60 py-xxl-5 text-center px-xxl-4 "
+                        style="right: 0;">
+                        <span class="rounded-pill text-center "
+                            style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
+
+                            Trending Software
+
+                        </span>
+                        <h3 class="fs48 green_clr mt-4">
+                            Blogging <br> Traffic System
+                        </h3>
+                        <p class="fs15">
+                            Lorem ipsum dolor sit amet consectetur. Amet mauris a id non. In eget consectetur.
+                        </p>
+                        <a href="" class="fs15">Read More</a>
+                        <div class="d-flex gap-5 mt-4 justify-content-center align-items-center">
+                            <div class="fs30">
+                                £150.00
+                            </div>
+
+                            <button class="btn_green text-white">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0 overflow-hidden desktop">
         <div class="row justify-content-center">
 
-            <div class="col-xxl-6 px-0 h-100">
+            <div class="col-xl-6 px-0 h-100">
                 <div class="row justify-content-around">
 
-                    <div class="col-xxl-6 d-flex align-items-center px-xxl-4 py-5">
+                    <div class="col-xxl-6 col-xl-7 d-flex align-items-center px-xxl-4 py-5 pady2 ">
                         <div>
                             <span class="rounded-pill text-center"
                                 style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
@@ -431,7 +677,7 @@
                                 Trending Video
 
                             </span>
-                            <h3 class="fs48 green_clr mt-4">
+                            <h3 class="fs48 green_clr mt-4 mart0">
                                 Your First <br class="desktop"> Website Course
                             </h3>
                             <p class="fs15">
@@ -448,22 +694,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 d-flex align-items-center justify-content-center">
+                    <div class="col-xl-4 d-flex align-items-center justify-content-center">
                         <div>
                             <img src="media/aB6VKAfmeNSTou8emI0wHIy96IXeeki59U5eglJl 1.png" class="w-100 h-100" alt="">
                         </div>
                     </div>
                 </div>
                 <div>
-                    <img src="/media/hero4.2.png" class="w-100 h-100" alt="">
+                    <img src="media/hero4.2.png" class="w-100 h-100" alt="">
                 </div>
 
             </div>
 
-            <div class="col-xxl-6 px-0 h-100">
-                <div class="position-relative">
+            <div class="col-xl-6 px-0 h-100">
+                <div class="position-relative hpx">
                     <img src="media/hero4.1.png" class=" w-100 h-100" alt="">
-                    <div class="position-absolute bottom-0 bg-white col-xxl-6 py-xxl-5 text-center px-xxl-4"
+                    <div class="position-absolute bottom-0 bg-white w60  col-xxl-6 col-xl-7 py-xxl-5 text-center px-xxl-4"
                         style="left: 0;">
                         <span class="rounded-pill text-center "
                             style="padding: 8px 16px; background-color: #FFB400;color: #062617;">
@@ -579,7 +825,144 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'
+        integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=='
+        crossorigin='anonymous'></script>
+
+    <script>
+        $(document).ready(function () {
+            $(document).scroll(function () {
+                scroll_pos = $(this).scrollTop();
+
+                if (scroll_pos > 100) {
+                    $(".head1").css({
+                        "background-color": "#fff",
+                    });
+                } else {
+                    $(".head1").css("background-color", "transparent");
+                }
+            });
+            // checkPosition();
+
+            // $(document).load($(window).bind("resize", checkPosition));
+            var t = false;
+            $(".navbar-toggler").click(function () {
+                if (t) {
+                    $(this).html('<img src="media/dropperD.svg" alt="">');
+                    $(".head1").css({
+                        "background-color": "transparent",
+                    });
+                    // $(".nn").css("height", "auto");
+                    t = false;
+                } else {
+                    $(this).html('<img src="media/closem.svg" alt="">');
+                    $(".head1").css({
+                        "background-color": "#fff",
+                    });
+                    //$(".nn").css("height", "650px");
+
+                    t = true;
+                }
+            });
+        });
+
+
+        class parallaxTiltEffect {
+            constructor({
+                element,
+                tiltEffect
+            }) {
+                this.element = element;
+                this.container = this.element.querySelector(".pcontainer");
+                this.size = [300, 360];
+                [this.w, this.h] = this.size;
+
+                this.tiltEffect = tiltEffect;
+
+                this.mouseOnComponent = false;
+
+                this.handleMouseMove = this.handleMouseMove.bind(this);
+                this.handleMouseEnter = this.handleMouseEnter.bind(this);
+                this.handleMouseLeave = this.handleMouseLeave.bind(this);
+                this.defaultStates = this.defaultStates.bind(this);
+                this.setProperty = this.setProperty.bind(this);
+                this.init = this.init.bind(this);
+
+                this.init();
+            }
+
+            handleMouseMove(event) {
+                const {
+                    offsetX,
+                    offsetY
+                } = event;
+
+                let X;
+                let Y;
+
+                if (this.tiltEffect === "reverse") {
+                    X = (offsetX - this.w / 2) / 3 / 3;
+                    Y = -(offsetY - this.h / 2) / 3 / 3;
+                } else if (this.tiltEffect === "normal") {
+                    X = -(offsetX - this.w / 2) / 3 / 3;
+                    Y = (offsetY - this.h / 2) / 3 / 3;
+                }
+
+                this.setProperty("--rY", X.toFixed(2));
+                this.setProperty("--rX", Y.toFixed(2));
+
+                this.setProperty("--bY", 80 - (X / 4).toFixed(2) + "%");
+                this.setProperty("--bX", 50 - (Y / 4).toFixed(2) + "%");
+            }
+
+            handleMouseEnter() {
+                this.mouseOnComponent = true;
+                this.container.classList.add("pcontainer--active");
+            }
+
+            handleMouseLeave() {
+                this.mouseOnComponent = false;
+                this.defaultStates();
+            }
+
+            defaultStates() {
+                this.container.classList.remove("pcontainer--active");
+                this.setProperty("--rY", 0);
+                this.setProperty("--rX", 0);
+                this.setProperty("--bY", "80%");
+                this.setProperty("--bX", "50%");
+            }
+
+            setProperty(p, v) {
+                return this.container.style.setProperty(p, v);
+            }
+
+            init() {
+                this.element.addEventListener("mousemove", this.handleMouseMove);
+                this.element.addEventListener("mouseenter", this.handleMouseEnter);
+                this.element.addEventListener("mouseleave", this.handleMouseLeave);
+            }
+        }
+
+        const A = (e) => document.querySelector(e);
+
+        const wrap1 = new parallaxTiltEffect({
+            element: A(".wrap--1"),
+            tiltEffect: "reverse",
+        });
+
+        const wrap2 = new parallaxTiltEffect({
+            element: A(".wrap--2"),
+            tiltEffect: "normal",
+        });
+
+        const wrap3 = new parallaxTiltEffect({
+            element: A(".wrap--3"),
+            tiltEffect: "reverse",
+        });
+    </script>
 </body>
 
 </html>
