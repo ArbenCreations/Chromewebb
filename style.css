@@ -73,6 +73,7 @@ p {
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #2E6663, #2E6663);
     text-transform: capitalize;
     opacity: 50%;
+    width: 165px;
 }
 
 .btn_grey {
@@ -97,6 +98,7 @@ p {
     background-color: #FFFFFF;
     color: #062617;
     text-transform: capitalize;
+    width: 165px;
 }
 
 .head1 {
@@ -112,7 +114,11 @@ p {
     font-size: 11px;
     font-weight: 400;
 }
-
+.fs12
+{
+    font-size: 12px;
+    font-weight: 500;
+}
 .fs14 {
     font-size: 14px;
     font-weight: 500;
@@ -155,10 +161,6 @@ p {
     font-weight: 400;
 }
 
-td {
-    margin-right: 35.3px;
-}
-
 .footer {
     background-image: url(media/footer.png);
     background-size: cover;
@@ -183,11 +185,13 @@ option {
 }
 
 .space {
-    padding: 75px 0px;
+    background-image: url(media/Body.png); background-repeat: no-repeat;background-size: cover;background-position-x:center;padding: 75px 0px 75px 0px;
 }
-
+.spaceX {
+    background-image: url(media/Shopping Cart.png); background-repeat: no-repeat;background-size: cover;background-position-x:center;padding: 75px 0px 75px 0px;
+}
 .space1 {
-    padding: 124px 0px;
+    padding: 124px 0px;background-image: url(media/Body.png); background-repeat: no-repeat;background-size: cover;background-position-x:center;
 }
 
 .space2 {
@@ -195,6 +199,9 @@ option {
 }
 
 .pay {
+    background-image: url(media/Added to Cart.jpg);
+    background-position-x:center;
+    background-size: cover;
     border: 8px solid #F4F4F4;
     box-shadow: 0px 1.3562500476837158px 2.7750000953674316px 0px #00000006;
     box-shadow: 0px 6.199999809265137px 7.800000190734863px 0px #00000009;
@@ -203,11 +210,14 @@ option {
     padding: 40px;
     border-radius: 9px;
 }
-
-input[type='checkbox'] {
-    display: none;
+.selectarrow {
+    margin-left: -65px;
+    margin-top: 8px;
+    background-color: #FFFFFF;
+    padding: 8px 22px;
+    font-size: 18px;
+    color: #2E6663;
 }
-
 input[type='checkbox']:checked~div .mycheckbox {
     background-image: url(media/Check.svg);
     background-size: auto;
@@ -239,15 +249,16 @@ input[type='checkbox']:checked~div .mycheckbox1 {
 .log1 {
     background-image: url(media/logback.png);
     background-size: cover;
-    background-position: center center;
-    padding: 200px 0px;
+    background-position-x: center;
+    background-position-y: cover;
+    padding: 0px 0px;
 }
 
 .log2 {
     background-image: url(media/logback.png);
     background-size: cover;
     background-position: center center;
-    padding: 150px 0px;
+    padding: 0px 0px;
 }
 
 .log3 {
@@ -301,14 +312,12 @@ table {
 
 .table td {
     padding-left: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .topt td {
     background-color: transparent;
 }
-
+.bott td{padding-left: 10px 20px}
 #more {
     display: none;
 }
@@ -503,6 +512,7 @@ table {
     background-color: white;
 }
 
+
 .upsec {
     background-image: url('media/Rectangle 46.png');
     background-size: cover;
@@ -629,6 +639,19 @@ table {
     }
 }
 
+
+.table {
+        width: 770px;margin: auto;
+    }
+
+/* end desgin */
+@media screen and (max-width: 1440px) 
+{
+    .w90{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .nav-item {
         padding: 16px;
@@ -657,7 +680,11 @@ table {
         font-weight: 400;
     }
     .space {
-        padding: 40px 24px;
+        padding: 40px 15px;background-image: url(media/Dashboard - Account Details.png); background-repeat: no-repeat;background-size: cover; background-position-x:center}
+    }
+    .spaceX
+    {
+        background-image: url(media/Cart.png);background-position:center;background-size: cover;padding:40px 0px; 
     }
     .space1 {
         padding: 40px 0px;
@@ -678,10 +705,10 @@ table {
         font-weight: 400;
     }
     .log1 {
-        padding: 0px 20px;
+        padding: 0px 0px;
     }
     .log2 {
-        padding: 0px 20px;
+        padding: 0px 0px;
     }
     .log3 {
         padding: 0px 20px;
@@ -701,9 +728,6 @@ table {
     .secure {
         padding: 0px 24px 24px 24px;
         width: 100%
-    }
-    .table {
-        width: 1200px;
     }
     .terSpace {
         padding: 40px 0px;
