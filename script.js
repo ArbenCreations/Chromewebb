@@ -85,3 +85,32 @@ const wrap3 = new parallaxTiltEffect({
   element: $(".wrap--3"),
   tiltEffect: "reverse",
 });
+
+$(document).ready(function () {
+  $(document).scroll(function () {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 100) {
+      $(".head1").css({
+        "background-color": "#fff",
+      });
+    } else {
+      $(".head1").css("background-color", "transparent");
+    }
+  });
+  // checkPosition();
+
+  // $(document).load($(window).bind("resize", checkPosition));
+  var t = false;
+  $(".navbar-toggler").click(function () {
+    if (t) {
+      $(this).html('<img src="media/dropper.svg" alt="">');
+      // $(".nn").css("height", "auto");
+      t = false;
+    } else {
+      $(this).html('<img src="media/cross1.png" alt="">');
+      //$(".nn").css("height", "650px");
+
+      t = true;
+    }
+  });
+});
