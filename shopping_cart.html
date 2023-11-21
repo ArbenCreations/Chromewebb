@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style1.css">
@@ -18,11 +19,11 @@
                     <img src="media/logo.svg" class="desktop">
                     <img src="media/logoM.svg" class="mobile">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <img src="media/dropperD.svg" alt="">
                 </button>
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav ms-auto text-center align-items-center">
+                <div class="collapse navbar-collapse justify-content-around" id="mynavbar">
+                    <ul class="navbar-nav text-center ms-sm-5 ps-5 align-items-center">
                         <li class="nav-item">
                             <a class="nav-link fsN14 black_clr desktop" href="#">design resources</a>
                             <a class="nav-link fsN14 green_clr mobile" href="#">design resources</a>
@@ -47,7 +48,7 @@
                         </li>
                         <img src="media/blackdot.png" class="img-fluid desktop">
                         <img src="media/greendot.png" class="img-fluid mobile">
-                        <li class="nav-item position-relatives">
+                        <li class="nav-item">
                             <a class="nav-link dropdown-toggle fsN14 black_clr desktop" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">GBP £</a>
                             <a class="nav-link dropdown-toggle fsN14 green_clr mobile" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">GBP £</a>
                             <ul class="dropdown-menu vv" aria-labelledby="navbarDropdownMenuLink">
@@ -59,19 +60,19 @@
                     </ul>
                     <ul class="navbar-nav n2 text-center">
                         <li class="nav-item">
-                           <button type="button" class="btn_green w-100 fsN14 white_clr">Login/Register</button>
+                           <button type="button" class="btn_grey w-100 fsN14">My Account</button>
                         </li>
                         <li class="nav-item">
-                           <button type="button" class="btn_grey w-100 fsN14">Shopping Cart<badge>(10)</badge></button>
+                           <button type="button" class="btn_trans w-100 fsN14">Shopping Cart<badge>(10)</badge></button>
                         </li>
                     </ul> 
                 </div>
             </div>
         </nav>
     </div>
-    <div class="container-fluid space" style="background-image: url(media/Body.png); background-repeat: no-repeat;background-size: cover;">
-       
-            <div class="col-lg-8 mx-auto text-center bg-white secure mb-3">
+    <div class="container-fluid spaceX">
+        <div class="container">
+            <div class="col-xxl-11 col-xl-10 mx-auto text-center bg-white secure mb-3 border-1">
                 <div class="fs48 green_clr text-center pb-3">Secure checkout</div>
                 <p class="fs15 black_clr text-center pb-2">Enter your billing address information</p>
                 <div class="row">
@@ -89,12 +90,15 @@
                     </div>
                     <div class="col-lg-4">
                         <input type="text" name="" placeholder="Date of Birth" class="mb-4">
-                        <select class="mb-4">
-                            <option value="#">Country</option>
-                            <option value="#">Country</option>
-                            <option value="#">Country</option>
-                        </select>
-                        <div class="col fs15 text-center mx-5 mb-4">
+                        <div class="">
+                            <select class="mb-4">
+                                <option value="#">Country</option>
+                                <option value="#">Country</option>
+                                <option value="#">Country</option>
+                            </select>
+                            <i class="fa fa-chevron-down selectarrow position-absolute"></i>
+                        </div>
+                        <div class="col fs15 mx-5">
                             <div class="d-flex gap-3 align-items-center">
                                 <input id="chck" type="checkbox">
                                 <div class="h-100 pt-2">
@@ -105,18 +109,18 @@
                                 </label>
                             </div>
                         </div>
-                        <img src="media/captcha1.png" class="img-fluid mb-4 d-block mx-auto pt-sm-3">
+                        <img src="media/captcha1.png" class="img-fluid mb-4 d-block mx-auto pt-sm-3  pt-3">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 mx-auto pay desktop mt-sm-5" style="background-image: url(media/Added to Cart.png);">
+            <div class="col-xxl-7 col-xl-7 mx-auto pay desktop mt-sm-5" style="background-image: url(media/Added to Cart.png);">
                 <div class="fs48 green_clr pb-4 text-center">Cart Summary</div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-9">
                         <div class="fs22 green_clr">Products</div>
                     </div>
-                    <div class="col-2">
-                        <div class="fs22 green_clr text-end">Qty</div>
+                    <div class="col-1">
+                        <div class="fs22 green_clr text-center">Qty</div>
                        
                     </div>
                     <div class="col-2">
@@ -124,7 +128,7 @@
                     </div>
                 </div>
                 <div class="row align-items-center py-4">
-                    <div class="col-8">
+                    <div class="col-9">
                         <div class="" >
                             <div class="fs14 black_clr position-absolute" style="margin-top: -10px;margin-left: 20px">Video</div>
                             <div class="row position-relative align-items-center" style="border: 1px solid #D0D0D0;">
@@ -137,15 +141,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="fs22 black_clr text-end">x1</div>
+                    <div class="col-1">
+                        <div class="fs22 black_clr text-center">x1</div>
                     </div>
                     <div class="col-2">
                         <div class="fs22 black_clr text-end">£50.00</div>
                     </div>
                 </div>
                 <div class="row align-items-center pb-3">
-                    <div class="col-8">
+                    <div class="col-9">
                         <div class="" >
                             <div class="fs14 black_clr position-absolute" style="margin-top: -10px;margin-left: 20px">Video</div>
                             <div class="row position-relative align-items-center" style="border: 1px solid #D0D0D0;">
@@ -158,8 +162,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="fs22 black_clr text-end">x1</div>
+                    <div class="col-1">
+                        <div class="fs22 black_clr text-center">x1</div>
                     </div>
                     <div class="col-2">
                         <div class="fs22 black_clr text-end">£50.00</div>
@@ -174,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 mx-auto text-center my-4 desktop">
+            <div class="col-xxl-7 col-xl-7 mx-auto text-center my-5 desktop px-2">
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <input type="text" name="" placeholder="Add coupon / discount code" class="">
@@ -184,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 mx-auto text-center desktop">
+            <div class="col-lg-7 mx-auto text-center desktop px-2">
                 <div class="row">
                     <div class="col">
                         <button type="button" class="btn_green w-100 fs14 white_clr">Secure Checkout</button>
@@ -221,7 +225,7 @@
                         <div class="fs15 black_clr text-end">£50.00</div>
                     </div>
                     <div class="col-1">
-                        <a href="#"><img src="media/trash.png" class="img-fluid"></a>
+                        <a href="#"><img src="media/trash.png" class=""></a>
                     </div>
                 </div>
                 <div class="row align-items-center pb-3">
@@ -238,10 +242,10 @@
                         <div class="fs15 black_clr text-end">£50.00</div>
                     </div>
                     <div class="col-1">
-                        <a href="#"><img src="media/trash.png" class="img-fluid"></a>
+                        <a href="#"><img src="media/trash.png" class=""></a>
                     </div>
                 </div>
-                <div class="row pb-4">
+                <div class="row">
                     <div class="col-6">
                         <div class="fs30 black_clr">Amount Due:</div>
                     </div>
@@ -267,7 +271,7 @@
                     </div>
                 </div>
             </div>
-       
+        </div>
     </div>
     <div class="footer">
         <div class="container-fluid py-5 desktop" style="border-bottom: 1px solid #D0D0D0">
@@ -314,7 +318,7 @@
         </div>
         <div class="container-fluid py-5 mobile " style="border-bottom: 1px solid #D0D0D0">
             <div class="container">
-                <div class="col-5 mx-auto text-center pb-5">
+                <div class="col-7 mx-auto text-center pb-5">
                     <div><img src="media/logoFM.svg" class="img-fluid"></div>
                     <div><img src="media/Mastercard.png" class="img-fluid py-3"></div>
                     <div class="white_clr fs15">help@chromewebb.com 100 Edenbridge Road, Birmingham, United Kingdom, B28 8PR. </div>
@@ -343,9 +347,7 @@
                 </div>
             </div>
         <div class="container-fluid footer pt-5">
-            <div class="container">
-                <div class="text-center fs15" style="color: #D0D0D0">© 2023 Chrome Webb. All rights reserved.</div>
-            </div>
+            <div class="text-center fs12" style="color: #D0D0D0">© 2023 Chrome Webb. All rights reserved.</div>
         </div>
         </div>
     </div>
